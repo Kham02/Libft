@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abernita <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: estrong <estrong@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 12:39:46 by abernita          #+#    #+#             */
-/*   Updated: 2021/10/08 12:40:01 by abernita         ###   ########.fr       */
+/*   Updated: 2022/03/11 11:24:03 by estrong          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 
 {
-	t_list *current;
-	t_list *next_lst;
+	t_list	*current;
+	t_list	*next_lst;
 
 	if (!lst || !del)
 		return ;
