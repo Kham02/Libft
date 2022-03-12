@@ -6,10 +6,11 @@
 /*   By: estrong <estrong@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/06 14:22:57 by estrong           #+#    #+#             */
-/*   Updated: 2022/03/11 12:03:52 by estrong          ###   ########.fr       */
+/*   Updated: 2022/03/12 15:51:17 by estrong          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
 int	ft_tolower(int c)
 {
